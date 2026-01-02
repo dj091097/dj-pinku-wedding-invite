@@ -621,4 +621,11 @@ footer {
         flex-direction: column;
         gap: 5px;
     }
+
+    /* Better background alignment for mobile (focus on faces/top) */
+    .slide {
+        background-position: center top;
+        background-attachment: scroll;
+        /* Ensure performance on mobile */
+    }
 }
